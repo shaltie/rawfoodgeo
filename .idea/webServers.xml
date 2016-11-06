@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c5593b88-8e36-4967-ad8f-890843a6a216" name="geofood" url="http://93.104.213.56">
+        <fileTransfer host="93.104.213.56" port="2200" rootFolder="/var/www/skudr.ru/data/www/geo.skudr.ru/" accessType="SFTP" username="skudr.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
