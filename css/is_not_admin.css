@@ -1,0 +1,17 @@
+.logedin .header {    top: 0px;}.logedin .mycity_o-grid__item {    top: 0px;}
+
+	#wp-admin-bar-user-info img {
+		position: absolute !important;
+		left: -72px !important;
+		top: 4px !important;
+		width: 64px !important;
+		height: 64px !important;
+	}
+    .affix {
+  
+    top: 99px !important;
+    
+}
+header.sticky  , .logged-in header{
+    top: 0px !important;
+}

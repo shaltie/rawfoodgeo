@@ -1,0 +1,92 @@
+  #avatar_form {
+                  position: relative;
+  top: -70px;
+  margin-bottom: -75px;
+  height: 110px;
+            }
+            .my-button2 {
+                background: transparent !important;
+            }
+            .input-file-row-1:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.input-file-row-1{
+    display: inline-block;
+	margin-top: 25px;
+	position: relative;
+}
+
+html[xmlns] .input-file-row-1{
+    display: block;
+}
+
+* html .input-file-row-1 {
+    height: 1%;
+}
+
+.upload-file-container { 
+	position: relative; 
+	width: 93px; 
+	height: 93px; 
+	overflow: hidden;
+    float: left;
+	margin-left: 23px;
+    border-radius: 50%;
+} 
+
+.upload-file-container:first-child { 
+	margin-left: 9px;
+} 
+
+.upload-file-container > img {
+	width: 93px !important;
+	height: 93px !important;
+	border-radius: 100%;
+	
+}
+
+.upload-file-container-text{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #719d2b;
+	line-height: 17px;
+	text-align: center;
+	display: block;
+	position: relative; 
+	left: 0; 
+	bottom: 0; 
+	width: 93px; 
+	height: 93px;
+    top: -93px;
+    
+}
+
+.upload-file-container-text > span{
+	border-bottom: 1px solid #719d2b;
+	cursor: pointer;
+}
+
+.upload-file-container input  { 
+	position: absolute; 
+	left: 0; 
+	bottom: 0; 
+	font-size: 1px; 
+	opacity: 0;
+	filter: alpha(opacity=0);	
+	margin: 0; 
+	padding: 0; 
+	border: none; 
+	width: 93px; 
+	height: 93px; 
+	cursor: pointer;
+    border-radius: 50%;
+    
+    
+}
+            

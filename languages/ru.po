@@ -1,0 +1,2236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MyCity\n"
+"POT-Creation-Date: 2016-04-11 10:02+0300\n"
+"PO-Revision-Date: 2016-04-11 10:03+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:41
+msgid "404 Not found"
+msgstr "ошибка 404"
+
+#: 404.php:47
+msgid ""
+"Admin! For theme work correctly, you must activate all required plugins and "
+"add spetial pages with slug \"register\", \"submit-place\", \"members\" and "
+"other... For more information see documentation. OR just import Demo data "
+"(Admin -> Appearance -> Import demo data)."
+msgstr ""
+"Админ! Для темы работы правильно, необходимо активировать все необходимые "
+"плагины и добавлять spetial страницы с слизняка \"зарегистрировать\", "
+"\"подать-место\", \"члены\" и другие ... Для получения дополнительной "
+"информации обратитесь к документации. ИЛИ просто импортировать демо-данные "
+"(администратора -> Вид -> Импорт демонстрационных данных)."
+
+#: 404.php:51
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Не найдено на этой странице. Может воспользуетесь поиском?"
+
+#: Places_grid.php:18
+msgid "This title can be change by click"
+msgstr "Это название можно изменить с помощью мыши"
+
+#: Places_grid.php:19
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do\n"
+"                eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+"Ut enim ad minim veniam"
+msgstr ""
+"Образец текста для отображения в секции Отзывы. Можно вводить любой текст за "
+"исключением служебных символов и знаков. Этот текст будут отражаться как "
+"комментарий и отзыв к продукту"
+
+#: Places_grid.php:23 category-posts.php:18 template-add.php:231
+msgid "Category:"
+msgstr "Категория:"
+
+#: Places_list.php:20
+msgid "Places list"
+msgstr "список мест"
+
+#: Places_list.php:22
+msgid ""
+"You can use all Bootstrap plugins purely through the\n"
+"                        markup API without writing a single line of "
+"JavaScript. This is Bootstrap's first-class API and\n"
+"                        should be your first consideration when using a "
+"plugin."
+msgstr ""
+"Вы можете использовать все плагины Bootstrap чисто через разметки API без "
+"написания единой строчки JavaScript. Это первый класс API Bootstrap и должен "
+"быть вашим первым вопросом при использовании плагина."
+
+#: Places_map2.php:194 Places_map_minimal.php:149
+msgid "All"
+msgstr "Все"
+
+#: Places_map2.php:251
+msgid "Type..."
+msgstr "Тип"
+
+#: Places_map2.php:252 assets/shortcode.php:25 template-frontpage1.php:96
+msgid "Search"
+msgstr "Поиск"
+
+#: Places_map2.php:255
+msgid "Show places near me"
+msgstr "Показать места возле меня"
+
+#: Places_map_minimal.php:65
+msgid "Category menu"
+msgstr "Меню категории"
+
+#: assets/BFI_Thumb.php:416
+msgid "Image negate failed."
+msgstr "Не получилось сделать негатив изображения."
+
+#: assets/VC_MAP.php:8
+msgid "Mycity top promo bloc"
+msgstr "MyCity сверху промо-блок"
+
+#. Theme Name of the plugin/theme
+#: assets/VC_MAP.php:11 assets/VC_MAP.php:71 assets/VC_MAP.php:100
+#: assets/VC_MAP.php:149 assets/VC_MAP.php:190 assets/VC_MAP.php:212
+#: assets/VC_MAP.php:244
+msgid "MyCity"
+msgstr "Мой город"
+
+#: assets/VC_MAP.php:17 assets/VC_MAP.php:20 assets/VC_MAP.php:81
+#: assets/VC_MAP.php:114 assets/VC_MAP.php:136 assets/VC_MAP.php:155
+#: assets/VC_MAP.php:158 assets/VC_MAP.php:196 assets/VC_MAP.php:199
+#: assets/VC_MAP.php:218 assets/VC_MAP.php:221
+msgid "Text header"
+msgstr "Текст: Заголовок"
+
+#: assets/VC_MAP.php:19 assets/shortcode.php:21 template-frontpage1.php:70
+msgid "welcome to my city guide!"
+msgstr "Добро пожаловать в мой путеводитель по городу!"
+
+#: assets/VC_MAP.php:26 assets/VC_MAP.php:164
+msgid "Description under the heading"
+msgstr "Описание под заголовком"
+
+#: assets/VC_MAP.php:28 assets/shortcode.php:22 template-frontpage1.php:323
+msgid ""
+"See and visit interesting places. Share experiences with your friends. Simply"
+msgstr "Смотрите и посетить интересные места. Обмен опытом с друзьями. Просто"
+
+#: assets/VC_MAP.php:29 assets/VC_MAP.php:167 assets/VC_MAP.php:262
+msgid "Description under the heading."
+msgstr "Описание под заголовком."
+
+#: assets/VC_MAP.php:35
+msgid "Text Find"
+msgstr "Текст Найти"
+
+#: assets/VC_MAP.php:37 assets/shortcode.php:23 template-frontpage1.php:77
+msgid "Find places or events"
+msgstr "Найти места или события"
+
+#: assets/VC_MAP.php:38
+msgid "Text Find."
+msgstr ""
+
+#: assets/VC_MAP.php:45
+msgid "Text Select category"
+msgstr ""
+
+#: assets/VC_MAP.php:47 assets/shortcode.php:24 template-frontpage1.php:80
+msgid "Select category"
+msgstr ""
+
+#: assets/VC_MAP.php:48
+msgid "Text Select category."
+msgstr ""
+
+#: assets/VC_MAP.php:54 assets/VC_MAP.php:57
+msgid "Text button search"
+msgstr ""
+
+#: assets/VC_MAP.php:56
+msgid "search"
+msgstr ""
+
+#: assets/VC_MAP.php:68
+msgid "Mycity item wide"
+msgstr ""
+
+#: assets/VC_MAP.php:78 assets/VC_MAP.php:111
+msgid "Text header1"
+msgstr ""
+
+#: assets/VC_MAP.php:80 assets/VC_MAP.php:113 assets/VC_MAP.php:135
+#: assets/shortcode.php:115 template-frontpage1.php:113
+msgid "Features My City"
+msgstr ""
+
+#: assets/VC_MAP.php:96
+msgid "Mycity features block"
+msgstr ""
+
+#: assets/VC_MAP.php:120
+msgid "The icons 1 "
+msgstr ""
+
+#: assets/VC_MAP.php:123
+msgid "insert icon"
+msgstr ""
+
+#: assets/VC_MAP.php:133 template-add.php:10 template-add.php:380
+#: template-add.php:480
+msgid "Description"
+msgstr ""
+
+#: assets/VC_MAP.php:146
+msgid "Mycity category block"
+msgstr ""
+
+#: assets/VC_MAP.php:157 assets/shortcode.php:174 template-frontpage1.php:152
+msgid "We know all the places in your city"
+msgstr ""
+
+#: assets/VC_MAP.php:166 assets/VC_MAP.php:261
+msgid "all places"
+msgstr ""
+
+#: assets/VC_MAP.php:173
+msgid "insert url button"
+msgstr ""
+
+#: assets/VC_MAP.php:176
+msgid "Url to button View all places"
+msgstr ""
+
+#: assets/VC_MAP.php:187
+msgid "Mycity  map"
+msgstr ""
+
+#: assets/VC_MAP.php:198 assets/shortcode.php:228 template-frontpage1.php:183
+msgid "View full place catalog"
+msgstr ""
+
+#: assets/VC_MAP.php:209
+msgid "Mycity users blocks"
+msgstr ""
+
+#: assets/VC_MAP.php:220 assets/shortcode.php:309 template-frontpage1.php:238
+msgid "The best user weekly"
+msgstr ""
+
+#: assets/VC_MAP.php:232
+msgid "None"
+msgstr ""
+
+#: assets/VC_MAP.php:241
+msgid "Mycity places block"
+msgstr ""
+
+#: assets/VC_MAP.php:250
+msgid "Widget title"
+msgstr ""
+
+#: assets/VC_MAP.php:252 assets/shortcode.php:431 template-frontpage1.php:423
+msgid "The best places weekly"
+msgstr ""
+
+#: assets/VC_MAP.php:253
+msgid "title"
+msgstr ""
+
+#: assets/VC_MAP.php:259
+msgid "button text"
+msgstr ""
+
+#: assets/VC_MAP.php:268
+msgid "How show places?"
+msgstr ""
+
+#: assets/VC_MAP.php:271 assets/VC_MAP.php:280
+msgid "insert number"
+msgstr ""
+
+#: assets/VC_MAP.php:277
+msgid "max chars in description"
+msgstr ""
+
+#: assets/VC_MAP.php:284
+msgid "Show rating?"
+msgstr ""
+
+#: assets/VC_MAP.php:286
+msgid "Yes"
+msgstr ""
+
+#: assets/VC_MAP.php:287 assets/additional_functions.php:52
+msgid "No"
+msgstr ""
+
+#: assets/VC_MAP.php:294
+msgid "Custom Categories"
+msgstr ""
+
+#: assets/additional_functions.php:35
+msgid "Newbie"
+msgstr ""
+
+#: assets/additional_functions.php:35
+msgid "One place followed"
+msgstr ""
+
+#: assets/additional_functions.php:36
+msgid "% places followed"
+msgstr ""
+
+#: assets/additional_functions.php:54 template-frontpage1.php:340
+msgid "One"
+msgstr ""
+
+#: assets/admin_extra.php:23 assets/admin_extra.php:108
+#: assets/shortcode.php:603 template-add.php:871
+msgid "Font awesome icon name"
+msgstr ""
+
+#: assets/admin_extra.php:27
+msgid "Show/hide icons"
+msgstr ""
+
+#: assets/admin_extra.php:29
+msgid "Note:"
+msgstr ""
+
+#: assets/admin_extra.php:29
+msgid ""
+"Marker image will be generated automatically with Font Awesome library. But "
+"the quality is not the best. We recommend to create a marker in Photoshop "
+"and upload it on \"Edit category page\"."
+msgstr ""
+
+#: assets/admin_extra.php:30
+msgid "Read more"
+msgstr ""
+
+#: assets/admin_extra.php:37
+msgid "Edit in photoshop"
+msgstr ""
+
+#: assets/admin_extra.php:38
+msgid "Save as PNG with transperent background"
+msgstr ""
+
+#: assets/admin_extra.php:39
+msgid "On this page click \"Edit\" on category."
+msgstr ""
+
+#: assets/admin_extra.php:40
+msgid "Upload png file in \"Marker image\" section."
+msgstr ""
+
+#: assets/admin_extra.php:68
+msgid "Category color"
+msgstr ""
+
+#: assets/admin_extra.php:199
+msgid "Map marker icon"
+msgstr ""
+
+#: assets/admin_extra.php:208
+msgid "Color"
+msgstr ""
+
+#: assets/admin_extra.php:233 assets/admin_extra.php:311
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: assets/admin_extra.php:250
+msgid "Registration by SMS"
+msgstr ""
+
+#: assets/admin_extra.php:255
+msgid "Allow SMS registration"
+msgstr ""
+
+#: assets/admin_extra.php:258
+msgid "Go to control.txtlocal.co.uk and register; "
+msgstr ""
+
+#: assets/admin_extra.php:261
+msgid "Your"
+msgstr ""
+
+#: assets/admin_extra.php:262
+msgid "control.txtlocal.co.uk"
+msgstr ""
+
+#: assets/admin_extra.php:264
+msgid "API email:"
+msgstr ""
+
+#: assets/admin_extra.php:270
+msgid "Your API Hash:"
+msgstr ""
+
+#: assets/admin_extra.php:274
+msgid "From"
+msgstr ""
+
+#: assets/admin_extra.php:274
+msgid "Your API Hash"
+msgstr ""
+
+#: assets/admin_extra.php:323
+msgid "Show Font Awesome Icons"
+msgstr ""
+
+#: assets/category_template.php:87
+msgid "Category Template"
+msgstr ""
+
+#: assets/category_template.php:90
+msgid "Default Template"
+msgstr ""
+
+#: assets/category_template.php:94
+msgid "Select a specific template for this category"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:333 assets/tgm.php:115
+msgid "Install Required Plugins"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:334 assets/tgm.php:116
+msgid "Install Plugins"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:335 assets/tgm.php:117
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:336 assets/tgm.php:118
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:338 assets/tgm.php:119
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:343 assets/tgm.php:121
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:353 assets/tgm.php:131
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:368 assets/tgm.php:125
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:373 assets/tgm.php:127
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:383 assets/tgm.php:135
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:393 assets/tgm.php:136
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:397 assets/tgm.php:137
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:399
+#: assets/class-tgm-plugin-activation.php:3029 assets/tgm.php:138
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:400
+#: assets/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:828
+#: assets/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:935
+#: assets/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:1116
+#: assets/class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:1881
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2235
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2280
+#, php-format
+msgctxt "plugins"
+msgid "All (%s)"
+msgid_plural "All (%s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:2283
+#, php-format
+msgid "To Install (%s)"
+msgid_plural "To Install (%s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:2286
+#, php-format
+msgid "Update Available (%s)"
+msgid_plural "Update Available (%s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "To Activate (%s)"
+msgid_plural "To Activate (%s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2422
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2443 template-finance.php:97
+msgid "Status"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2491
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2495
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: %2$s."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3370
+#: assets/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3370
+#: assets/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/customizer.php:10
+msgid "Main page"
+msgstr ""
+
+#: assets/customizer.php:11 assets/customizer.php:15
+msgid "Settings of the main page"
+msgstr ""
+
+#: assets/customizer.php:14
+msgid "Members"
+msgstr ""
+
+#: assets/customizer.php:26 assets/customizer.php:37
+msgid "showlogin"
+msgstr ""
+
+#: assets/customizer.php:49
+msgid "Weather"
+msgstr ""
+
+#: assets/customizer.php:56
+msgid "Weather options"
+msgstr ""
+
+#: assets/customizer.php:61
+msgid "Degrees Fahrenheit"
+msgstr ""
+
+#: assets/customizer.php:62
+msgid "Degrees celsius"
+msgstr ""
+
+#: assets/customizer.php:63
+msgid "Do not show weather on site"
+msgstr ""
+
+#: assets/customizer.php:69
+msgid "Weather  cordinats latitude  "
+msgstr ""
+
+#: assets/customizer.php:78
+msgid "Weather  cordinats longitude  "
+msgstr ""
+
+#: assets/customizer.php:89
+msgid "Weather  APPDI KEY  http://openweathermap.org/appid "
+msgstr ""
+
+#: assets/customizer.php:101
+msgid "Events"
+msgstr ""
+
+#: assets/customizer.php:108
+msgid "Events default style?"
+msgstr ""
+
+#: assets/customizer.php:118
+msgid "Mobile"
+msgstr ""
+
+#: assets/customizer.php:125
+msgid "Enable background on Mobile device? "
+msgstr ""
+
+#: assets/customizer.php:133
+msgid "Performans"
+msgstr ""
+
+#: assets/customizer.php:141
+msgid "Disable Paralax?"
+msgstr ""
+
+#: assets/customizer.php:150
+msgid "Enable Smoth Scroll?"
+msgstr ""
+
+#: assets/customizer.php:158
+msgid "Airbnb"
+msgstr ""
+
+#: assets/customizer.php:165
+msgid " Insert a link on the search results Airbnb."
+msgstr ""
+
+#: assets/customizer.php:175
+msgid "Referal link."
+msgstr ""
+
+#: assets/customizer.php:183
+msgid "Premium listing"
+msgstr ""
+
+#: assets/customizer.php:191
+msgid " Stripe Secret API key."
+msgstr ""
+
+#: assets/customizer.php:200
+msgid " Stripe Publish API key."
+msgstr ""
+
+#: assets/customizer.php:209
+msgid "Tarif1 name"
+msgstr ""
+
+#: assets/customizer.php:217
+msgid "Tarif1 price"
+msgstr ""
+
+#: assets/customizer.php:226
+msgid "Tarif2 name"
+msgstr ""
+
+#: assets/customizer.php:234
+msgid "Tarif2 price"
+msgstr ""
+
+#: assets/customizer.php:241
+msgid "Routing & Uber taxi"
+msgstr ""
+
+#: assets/customizer.php:249
+msgid "Show distance and Estimate Time of Arrival based on coordinates"
+msgstr ""
+
+#: assets/customizer.php:258
+msgid "Distance text (Not showing if guest far then 100km)"
+msgstr ""
+
+#: assets/customizer.php:267
+msgid "Average speed in the city (km/h)"
+msgstr ""
+
+#: assets/customizer.php:276
+msgid "Client id"
+msgstr ""
+
+#: assets/customizer.php:286
+msgid "Hide button \"Go\" if service unavailable"
+msgstr ""
+
+#: assets/customizer.php:296
+msgid "Taxi unavailable message"
+msgstr ""
+
+#: assets/customizer.php:305
+msgid "Fonts"
+msgstr ""
+
+#: assets/customizer.php:307
+msgid "Enter the url font google and font name"
+msgstr ""
+
+#: assets/customizer.php:312
+msgid "url google fonts"
+msgstr ""
+
+#: assets/customizer.php:321
+msgid "name google fonts"
+msgstr ""
+
+#: assets/customizer.php:330
+msgid "Mailchimp"
+msgstr ""
+
+#: assets/customizer.php:332
+msgid "Specify api key and ID list"
+msgstr ""
+
+#: assets/customizer.php:337
+msgid "API key"
+msgstr ""
+
+#: assets/customizer.php:346
+msgid "ID list"
+msgstr ""
+
+#: assets/customizer.php:354
+msgid "Language"
+msgstr ""
+
+#: assets/customizer.php:360
+msgid "Enable multilang? [beta]"
+msgstr ""
+
+#: assets/customizer.php:370
+msgid "Users can change the language"
+msgstr ""
+
+#: assets/customizer.php:377
+msgid "Single post/page"
+msgstr ""
+
+#: assets/customizer.php:384
+msgid "Hide Subscribe?"
+msgstr ""
+
+#: assets/customizer.php:393
+msgid "Hide the text under the title?"
+msgstr ""
+
+#: assets/customizer.php:402
+msgid "Items"
+msgstr ""
+
+#: assets/customizer.php:409
+msgid "Show share button?"
+msgstr ""
+
+#: assets/customizer.php:418
+msgid "Show the phone and website in places?"
+msgstr ""
+
+#: assets/customizer.php:427
+msgid "Include the ability to follow?"
+msgstr ""
+
+#: assets/customizer.php:437
+msgid "Status place when adding"
+msgstr ""
+
+#: assets/customizer.php:442
+msgid "Publish"
+msgstr ""
+
+#: assets/customizer.php:443
+msgid "Draft"
+msgstr ""
+
+#: assets/customizer.php:448
+msgid "Sotial_networks"
+msgstr ""
+
+#: assets/customizer.php:450
+msgid "Enter url desired social networks so that they appear on the site"
+msgstr ""
+
+#: assets/customizer.php:458
+msgid "Google + url"
+msgstr ""
+
+#: assets/customizer.php:467
+msgid "VK  url"
+msgstr ""
+
+#: assets/customizer.php:476
+msgid "Facebook  url"
+msgstr ""
+
+#: assets/customizer.php:485
+msgid "Instagram  url"
+msgstr ""
+
+#: assets/customizer.php:494
+msgid "Twitter url"
+msgstr ""
+
+#: assets/customizer.php:503 assets/customizer.php:524
+msgid "Site Identity"
+msgstr ""
+
+#: assets/customizer.php:511
+msgid "Archive style"
+msgstr ""
+
+#: assets/customizer.php:516
+msgid "modern"
+msgstr ""
+
+#: assets/customizer.php:517
+msgid "masonry"
+msgstr ""
+
+#: assets/customizer.php:532
+msgid "Layout"
+msgstr ""
+
+#: assets/customizer.php:537
+msgid "boxed"
+msgstr ""
+
+#: assets/customizer.php:538
+msgid "wide"
+msgstr ""
+
+#: assets/customizer.php:548
+msgid "Show 1st post instead of the title and category description"
+msgstr ""
+
+#: assets/customizer.php:558
+msgid "Hide categories"
+msgstr ""
+
+#: assets/customizer.php:569
+msgid "Hide fog on main page"
+msgstr ""
+
+#: assets/customizer.php:638
+msgid "Map style"
+msgstr ""
+
+#: assets/customizer.php:643
+msgid "stylemap_json"
+msgstr ""
+
+#: assets/customizer.php:654
+msgid "Coordinates map"
+msgstr ""
+
+#: assets/customizer.php:661
+msgid "Zoom map"
+msgstr ""
+
+#: assets/customizer.php:669
+msgid "Select style place map"
+msgstr ""
+
+#: assets/customizer.php:674
+msgid "Old style"
+msgstr ""
+
+#: assets/customizer.php:675
+msgid "New style"
+msgstr ""
+
+#: assets/customizer.php:681
+msgid ""
+"How many shows the place the left near to a map? (0 if do not need to limit)"
+msgstr ""
+
+#: assets/customizer.php:698
+msgid "Tex preview: "
+msgstr ""
+
+#: assets/customizer.php:703
+msgid "Simple"
+msgstr ""
+
+#: assets/customizer.php:704
+msgid "Extended"
+msgstr ""
+
+#: assets/customizer.php:705
+msgid "Table"
+msgstr ""
+
+#: assets/customizer.php:758
+msgid "Background color sidebar"
+msgstr ""
+
+#: assets/customizer.php:768
+msgid "Background sidebar icons"
+msgstr ""
+
+#: assets/customizer.php:777 assets/customizer.php:785
+msgid "Logo"
+msgstr ""
+
+#: assets/customizer.php:794
+msgid "Footer"
+msgstr ""
+
+#: assets/customizer.php:799
+msgid "footer_copyright"
+msgstr ""
+
+#: assets/customizer.php:814
+msgid "Footer img"
+msgstr ""
+
+#: assets/follow.php:32
+msgid "Follow"
+msgstr ""
+
+#: assets/follow.php:39
+msgid "Unfollow"
+msgstr ""
+
+#: assets/get_menu_button.php:21
+msgid "toggle menu"
+msgstr ""
+
+#: assets/mailchimp.php:14
+msgid "You have incorrect API key  "
+msgstr ""
+
+#: assets/mailchimp.php:21
+msgid "You have incorrect dc "
+msgstr ""
+
+#: assets/mailchimp.php:28
+msgid "You have incorrect id list "
+msgstr ""
+
+#: assets/mailchimp.php:52
+msgid "You subscribe as  "
+msgstr ""
+
+#: assets/metabox.php:58
+msgid "Short description (text near title)"
+msgstr ""
+
+#: assets/metabox.php:111
+msgid "Upload"
+msgstr ""
+
+#: assets/metabox.php:146
+msgid "Add a page with template template-add.php !"
+msgstr ""
+
+#: assets/metabox.php:160 template-add.php:273
+msgid "Enter a location"
+msgstr ""
+
+#: assets/metabox.php:162 template-add.php:276
+msgid "Coordinates:"
+msgstr ""
+
+#: assets/metabox.php:166 template-add.php:280
+msgid "Formatted Address"
+msgstr ""
+
+#: assets/metabox.php:171 template-add.php:285
+msgid "Phone"
+msgstr ""
+
+#: assets/metabox.php:176
+msgid "Site"
+msgstr ""
+
+#: assets/metabox.php:232
+msgid "Sure?\""
+msgstr ""
+
+#: assets/metabox.php:242 template-add.php:420
+msgid "Instagram checkpoint"
+msgstr ""
+
+#: assets/page_map_get_marker.php:97
+msgid "More info"
+msgstr ""
+
+#: assets/preloader.php:193
+msgid "Options saved"
+msgstr ""
+
+#: assets/preloader.php:210
+msgid "Preloader Style"
+msgstr ""
+
+#: assets/preloader.php:220
+msgid "Preloader Background"
+msgstr ""
+
+#: assets/preloader.php:223
+msgid ""
+"Select preloader background color here. You can also add html HEX color code."
+msgstr ""
+
+#: assets/preloader.php:228
+msgid "Preloader color"
+msgstr ""
+
+#: assets/preloader.php:231
+msgid "Select preloader color here. You can also add html HEX color code."
+msgstr ""
+
+#: assets/shortcode.php:87 template-frontpage1.php:104
+msgid "Use your scrollwheel :)"
+msgstr ""
+
+#: assets/shortcode.php:146
+msgid "features block"
+msgstr ""
+
+#: assets/shortcode.php:175 assets/shortcode.php:432
+#: template-frontpage1.php:177 template-frontpage1.php:489
+msgid "View all places"
+msgstr ""
+
+#: assets/stripe.php:37
+msgid "Wait for payment system response..."
+msgstr ""
+
+#: assets/tgm.php:123
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/tgm.php:129
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/tgm.php:133
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: assets/tgm.php:139
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: assets/widgets.php:59
+msgid "MyCity Airbnb"
+msgstr ""
+
+#: assets/widgets.php:60
+msgid "It displays a list of hosts"
+msgstr ""
+
+#: assets/widgets.php:77 assets/widgets.php:286 assets/widgets.php:447
+#: assets/widgets.php:590 assets/widgets.php:672 assets/widgets.php:918
+msgid "Title:"
+msgstr ""
+
+#: assets/widgets.php:88
+msgid "URL:"
+msgstr ""
+
+#: assets/widgets.php:100 assets/widgets.php:297
+msgid "How to show places?"
+msgstr ""
+
+#: assets/widgets.php:266
+msgid "MyCity Popular places "
+msgstr ""
+
+#: assets/widgets.php:267
+msgid "It displays a list of popular places"
+msgstr ""
+
+#: assets/widgets.php:270
+msgid "MyCity Popular places"
+msgstr ""
+
+#: assets/widgets.php:426 assets/widgets.php:430
+msgid "MyCity Tweets"
+msgstr ""
+
+#: assets/widgets.php:427
+msgid "It displays a list of tweets"
+msgstr ""
+
+#: assets/widgets.php:457
+msgid "Name:"
+msgstr ""
+
+#: assets/widgets.php:468
+msgid "How many show Tweets?"
+msgstr ""
+
+#: assets/widgets.php:569
+msgid "MyCity popular category"
+msgstr ""
+
+#: assets/widgets.php:570
+msgid "It displays a list of popular_category"
+msgstr ""
+
+#: assets/widgets.php:573
+msgid "MyCity popular_category"
+msgstr ""
+
+#: assets/widgets.php:653 assets/widgets.php:657
+msgid "MyCity Popular tags"
+msgstr ""
+
+#: assets/widgets.php:654
+msgid "It displays a list of popular tags"
+msgstr ""
+
+#: assets/widgets.php:685
+msgid "How many show tags?"
+msgstr ""
+
+#: assets/widgets.php:762 assets/widgets.php:766
+msgid "MyCity Footer events"
+msgstr ""
+
+#: assets/widgets.php:763
+msgid "Displays a list of events in the footer"
+msgstr ""
+
+#: assets/widgets.php:930
+msgid "How many show events:"
+msgstr ""
+
+#: category-posts.php:77
+msgid "Load more"
+msgstr ""
+
+#: category.php:70 partials/loop.php:172
+msgid "Continue reading"
+msgstr ""
+
+#: comments.php:49
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:53
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: comments.php:54
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:82
+msgid "Help us improve the translation for your language"
+msgstr ""
+
+#: footer.php:83
+msgid "You can change any text by clicking on (press Enter after changing)"
+msgstr ""
+
+#: functions.php:56
+msgid "Main left menu"
+msgstr ""
+
+#: functions.php:57
+msgid "posts category menu"
+msgstr ""
+
+#: functions.php:159
+msgid "Left menu area"
+msgstr ""
+
+#: functions.php:167
+msgid "Footer area"
+msgstr ""
+
+#: functions.php:284
+msgid "Comment is empty"
+msgstr ""
+
+#: functions.php:288
+msgid "Comment more than 200 characters"
+msgstr ""
+
+#: functions.php:432 template-add.php:9 template-add.php:173
+msgid "Enter the place name"
+msgstr ""
+
+#: functions.php:493
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:843
+msgid "Mycity news"
+msgstr ""
+
+#: functions.php:889
+msgid "Theme registered! awesome"
+msgstr ""
+
+#: functions.php:893
+msgid "Register your theme!"
+msgstr ""
+
+#: functions.php:894
+msgid "You will receive important news and updates"
+msgstr ""
+
+#: functions.php:901
+msgid "Your Name:"
+msgstr ""
+
+#: functions.php:907 template-auth.php:228
+msgid "Email:"
+msgstr ""
+
+#: functions.php:916 template-auth.php:173
+msgid "Register"
+msgstr ""
+
+#: functions.php:930
+msgid "invalid email"
+msgstr ""
+
+#: functions.php:934
+msgid "incorrect name"
+msgstr ""
+
+#: partials/header-top.php:39
+msgid "Logout"
+msgstr ""
+
+#: partials/header-top.php:41
+msgid "Login"
+msgstr ""
+
+#: partials/loop-placelist.php:57
+msgid "Comments"
+msgstr ""
+
+#: partials/loop.php:150
+msgid " views"
+msgstr ""
+
+#: partials/myAffix.php:19
+msgid "Tag"
+msgstr ""
+
+#: partials/place-body.php:29 partials/place-center.php:61 template-item.php:74
+msgid "Edit place"
+msgstr ""
+
+#: partials/place-body.php:102
+msgid "Date added"
+msgstr ""
+
+#: partials/place-body.php:106
+msgid "Total Visitors"
+msgstr ""
+
+#: partials/place-body.php:111
+msgid "total"
+msgstr ""
+
+#: partials/place-body.php:177 partials/place-center.php:236
+#: partials/place-maps.php:26
+msgid "Inside View"
+msgstr ""
+
+#: partials/place-body.php:184 partials/place-center.php:243
+#: partials/place-maps.php:33
+msgid "Street View"
+msgstr ""
+
+#: partials/place-center.php:66
+msgid "Submit review"
+msgstr ""
+
+#: partials/place-checkins.php:51
+#, php-format
+msgid " and %s other likes this place"
+msgid_plural " and %s other likes this place"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: partials/place-maps.php:20
+msgid "Map"
+msgstr ""
+
+#: partials/place-mobile-visibli.php:8 partials/place-similar.php:7
+msgid "Similar places:"
+msgstr ""
+
+#: partials/place-mobile-visibli.php:43
+msgid "followers"
+msgstr ""
+
+#: partials/place-similar.php:42
+msgid " followers "
+msgstr ""
+
+#: partials/place-similarmobile.php:3
+msgid "Similar places"
+msgstr ""
+
+#: partials/place-similarmobile.php:32
+msgid "likes"
+msgstr ""
+
+#: partials/profile-followers.php:7
+msgid "Followers:"
+msgstr ""
+
+#: partials/sidebar-avatar_form.php:43
+msgid "Log out"
+msgstr ""
+
+#: partials/sidebar-avatar_form.php:49 template-auth.php:242
+msgid "Log in"
+msgstr ""
+
+#: partials/sidebar-warning.php:3
+msgid ""
+"(This message only for admin) Go to to Design- > Menu and add menu in the "
+"left header . So you can place widgets by adding them to the left side panel "
+"section"
+msgstr ""
+
+#: partials/subscribe.php:9 single.php:65
+msgid "Subscribe now"
+msgstr ""
+
+#: partials/subscribe.php:13 single.php:68
+msgid "Subscribe"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:38
+msgid "Nothing Found"
+msgstr ""
+
+#: sidebar.php:71
+msgid ""
+"  Go to to Design- > Widgets and add  widget by adding them to the Left menu "
+"area panel section"
+msgstr ""
+
+#: single.php:34 template-members-list.php:34
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, aliquid!"
+msgstr ""
+
+#: single.php:107
+msgid "Pages:"
+msgstr ""
+
+#: single.php:112
+msgid "Next page"
+msgstr ""
+
+#: single.php:113
+msgid "Previous page"
+msgstr ""
+
+#: template-add.php:164
+msgid "Success! Place will be added after moderation"
+msgstr ""
+
+#: template-add.php:169
+msgid "Title"
+msgstr ""
+
+#: template-add.php:176
+msgid "Enter place title"
+msgstr ""
+
+#: template-add.php:179
+msgid "Enter Title"
+msgstr ""
+
+#: template-add.php:182
+msgid "Please no more than 120 characters"
+msgstr ""
+
+#: template-add.php:190
+msgid "Slug"
+msgstr ""
+
+#: template-add.php:194
+msgid "Enter the place slug"
+msgstr ""
+
+#: template-add.php:197
+msgid "Enter place slug"
+msgstr ""
+
+#: template-add.php:252
+msgid "Add some places category before submit item!"
+msgstr ""
+
+#: template-add.php:257
+msgid "Tags:"
+msgstr ""
+
+#: template-add.php:260
+msgid "Tags, the more the better. But no more than five."
+msgstr ""
+
+#: template-add.php:262
+msgid "Good for SEO optimization."
+msgstr ""
+
+#: template-add.php:290
+msgid "Website"
+msgstr ""
+
+#: template-add.php:318
+msgid "Google inside view or business view code:"
+msgstr ""
+
+#: template-add.php:327
+msgid "Enter iframe html code "
+msgstr ""
+
+#: template-add.php:331
+msgid ""
+"Go to the right address on map.google.com Google map, and throw the man to "
+"the desired point. Then then click \"see inside\" then click the ellipsis "
+"button > Share or embed image > Embed image and copy the html code   go to "
+"the right address on Google map,and throw the man to the desired point,  and "
+"then click the ellipsis > Share or embed image > Embed image and copy the "
+"html code"
+msgstr ""
+
+#: template-add.php:339
+msgid "Google street view:"
+msgstr ""
+
+#: template-add.php:348
+msgid "Enter iframe html code"
+msgstr ""
+
+#: template-add.php:352
+msgid ""
+"Go to the right address on Google map, and throw the man to the desired "
+"point,  and then click the ellipsis > Share or embed image > Embed image and "
+"copy the html code:"
+msgstr ""
+
+#: template-add.php:361
+msgid "Enter short or long description"
+msgstr ""
+
+#: template-add.php:363
+msgid "Try"
+msgstr ""
+
+#: template-add.php:364
+msgid "Example feature:yes"
+msgstr ""
+
+#: template-add.php:365
+msgid ""
+"here for small features.\n"
+"\t\t\t\t\t\t\t\t\t\tOr other shortcodes. \n"
+"\t\t\t\t\t\t\t\t\t\t"
+msgstr ""
+
+#: template-add.php:374
+msgid "[bigfeature] icon :Wi-Fi[/bigfeature]"
+msgstr ""
+
+#: template-add.php:375
+msgid "[feature] icon Work hours:24 hous/s[/feature]"
+msgstr ""
+
+#: template-add.php:387
+msgid "Select shortcode to insert"
+msgstr ""
+
+#: template-add.php:393
+msgid "Insert icon"
+msgstr ""
+
+#: template-add.php:406
+msgid "Enter short description. Up to 140 symbols"
+msgstr ""
+
+#: template-add.php:412
+msgid "Short description"
+msgstr ""
+
+#: template-add.php:429
+msgid "Enter the ID of checkpoint or click one below"
+msgstr ""
+
+#: template-add.php:431
+msgid "Photos of instagrama will be shown on the page of place"
+msgstr ""
+
+#: template-add.php:436
+msgid "SPETIAL OFFER"
+msgstr ""
+
+#: template-add.php:439
+msgid "  Convert every visitor into customerers by Spetial Offer!"
+msgstr ""
+
+#: template-add.php:464
+msgid " Title:"
+msgstr ""
+
+#: template-add.php:467
+msgid "Get a free drink"
+msgstr ""
+
+#: template-add.php:471
+msgid "Enter short description"
+msgstr ""
+
+#: template-add.php:483
+msgid "Just click on share button"
+msgstr ""
+
+#: template-add.php:486
+msgid "Coupon code"
+msgstr ""
+
+#: template-add.php:496
+msgid "Enter A-z 0-9 "
+msgstr ""
+
+#: template-add.php:505
+msgid " Reward type:"
+msgstr ""
+
+#: template-add.php:513
+msgid "  Users will post to social networks"
+msgstr ""
+
+#: template-add.php:517
+msgid "Price"
+msgstr ""
+
+#: template-add.php:538
+msgid "Send"
+msgstr ""
+
+#: template-add.php:538
+msgid "or"
+msgstr ""
+
+#: template-add.php:538
+msgid "delete"
+msgstr ""
+
+#: template-add.php:540
+msgid "You are not loged in"
+msgstr ""
+
+#: template-add.php:549
+msgid "You can buy premium listing for this place on "
+msgstr ""
+
+#: template-add.php:550
+msgid "Finance"
+msgstr ""
+
+#: template-add.php:550
+msgid "page"
+msgstr ""
+
+#: template-add.php:702 template-add.php:786
+msgid "Select one of checkpoint:"
+msgstr ""
+
+#: template-add.php:776
+msgid "Connecting to Instagram..."
+msgstr ""
+
+#: template-add.php:849
+msgid "Icons"
+msgstr ""
+
+#: template-add.php:888
+msgid "Insert Icons"
+msgstr ""
+
+#: template-auth.php:53
+msgid ""
+"\n"
+"                                The theme allows you to switch from "
+"classical registration by e-mail to register by entering the phone (password "
+"comes to the phone). SMS comes in more than 200 countries. You can also "
+"enter through 20+ social networks.\n"
+"                                "
+msgstr ""
+
+#: template-auth.php:114
+msgid "Registration"
+msgstr ""
+
+#: template-auth.php:132
+msgid " E-mail:"
+msgstr ""
+
+#: template-auth.php:158
+msgid "Enter name:"
+msgstr ""
+
+#: template-auth.php:160
+msgid "Nick"
+msgstr ""
+
+#: template-auth.php:167 template-auth.php:237
+msgid "Password:"
+msgstr ""
+
+#: template-auth.php:169
+msgid "Password"
+msgstr ""
+
+#: template-auth.php:186 template-auth.php:248
+msgid "Log in with social network"
+msgstr ""
+
+#: template-auth.php:201
+msgid "Autorization"
+msgstr ""
+
+#: template-auth.php:219
+msgid "Enter your phone"
+msgstr ""
+
+#: template-auth.php:220
+msgid "..."
+msgstr ""
+
+#: template-auth.php:220
+msgid "SMS sended"
+msgstr ""
+
+#: template-auth.php:229
+msgid "Your email"
+msgstr ""
+
+#: template-auth.php:238
+msgid "Code from SMS"
+msgstr ""
+
+#: template-auth.php:243
+msgid "Lost your password?"
+msgstr ""
+
+#: template-finance.php:41
+msgid "Insufficient gold My Lord :("
+msgstr ""
+
+#: template-finance.php:44
+msgid "Buy premium for place #"
+msgstr ""
+
+#: template-finance.php:58
+msgid "Your balance"
+msgstr ""
+
+#: template-finance.php:63 template-finance.php:127
+msgid "Top up the balance before buy premium listing"
+msgstr ""
+
+#: template-finance.php:72
+msgid "Amount"
+msgstr ""
+
+#: template-finance.php:75
+msgid "Payment method"
+msgstr ""
+
+#: template-finance.php:89
+msgid "Your places"
+msgstr ""
+
+#: template-finance.php:93
+msgid "Place"
+msgstr ""
+
+#: template-finance.php:94
+msgid "Price Plan"
+msgstr ""
+
+#: template-finance.php:95
+msgid "Pay date"
+msgstr ""
+
+#: template-finance.php:96
+msgid "Change Plan"
+msgstr ""
+
+#: template-finance.php:117 template-frontpage1.php:329
+msgid "Free"
+msgstr ""
+
+#: template-frontpage1.php:16
+msgid "Activate GeoCity plugin "
+msgstr ""
+
+#: template-frontpage1.php:17
+msgid "Go wp-admin"
+msgstr ""
+
+#: template-frontpage1.php:71
+msgid ""
+"See and visit interesting places. Share experiences with your friends. "
+"Simply."
+msgstr ""
+
+#: template-frontpage1.php:116
+msgid "Slider Revolution included"
+msgstr ""
+
+#: template-frontpage1.php:117
+msgid ""
+"Lorem Ipsum is simply dummy text of theif printing and typesetting industry. "
+"Lorem Ipsum has been the industrys standard dummy text ever since."
+msgstr ""
+
+#: template-frontpage1.php:120
+msgid "Google maps API support"
+msgstr ""
+
+#: template-frontpage1.php:121 template-frontpage1.php:125
+#: template-frontpage1.php:129 template-frontpage1.php:133
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industrys standard dummy text ever since."
+msgstr ""
+
+#: template-frontpage1.php:124
+msgid "Simple animation css3 framework"
+msgstr ""
+
+#: template-frontpage1.php:128
+msgid "Twitter bootstrap 3"
+msgstr ""
+
+#: template-frontpage1.php:132
+msgid "Valid HTML pages"
+msgstr ""
+
+#: template-frontpage1.php:136
+msgid "Adaptive design"
+msgstr ""
+
+#: template-frontpage1.php:137
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry's standard dummy text ever since."
+msgstr ""
+
+#: template-frontpage1.php:334
+msgid "mo"
+msgstr ""
+
+#: template-frontpage1.php:340
+msgid "client"
+msgstr ""
+
+#: template-frontpage1.php:341 template-frontpage1.php:372
+#: template-frontpage1.php:403
+msgid "Google"
+msgstr ""
+
+#: template-frontpage1.php:341 template-frontpage1.php:372
+#: template-frontpage1.php:403
+msgid "placement"
+msgstr ""
+
+#: template-frontpage1.php:342 template-frontpage1.php:373
+#: template-frontpage1.php:404
+msgid "Promotion"
+msgstr ""
+
+#: template-frontpage1.php:342 template-frontpage1.php:373
+#: template-frontpage1.php:404
+msgid "in sotial network"
+msgstr ""
+
+#: template-frontpage1.php:343 template-frontpage1.php:374
+#: template-frontpage1.php:405
+msgid "Testimonials"
+msgstr ""
+
+#: template-frontpage1.php:343 template-frontpage1.php:374
+#: template-frontpage1.php:405
+msgid "and review"
+msgstr ""
+
+#: template-frontpage1.php:344 template-frontpage1.php:375
+#: template-frontpage1.php:406
+msgid "E-mail"
+msgstr ""
+
+#: template-frontpage1.php:344 template-frontpage1.php:375
+#: template-frontpage1.php:406
+msgid "Support"
+msgstr ""
+
+#: template-frontpage1.php:349 template-frontpage1.php:380
+#: template-frontpage1.php:411
+msgid "Add place"
+msgstr ""
+
+#: template-frontpage1.php:360
+msgid "Annual"
+msgstr ""
+
+#: template-frontpage1.php:365
+msgid "year"
+msgstr ""
+
+#: template-frontpage1.php:371 template-frontpage1.php:402
+msgid "Many"
+msgstr ""
+
+#: template-frontpage1.php:371 template-frontpage1.php:402
+msgid "clients"
+msgstr ""
+
+#: template-frontpage1.php:391
+msgid "Monthly"
+msgstr ""
+
+#: template-item-wide.php:96
+msgid "Rating:"
+msgstr ""
+
+#: template-item-wide.php:107
+msgid "Go!"
+msgstr ""
+
+#: template-members-list.php:33
+msgid "Blog"
+msgstr ""
+
+#: template-profile.php:38
+msgid ""
+"User have no activity. Ask them to fill in information about yourself, leave "
+"reviews or follow the points places"
+msgstr ""
+
+#: template-profile.php:92
+msgid "Friends:"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://mycity.vioo.ru/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alex and Victor"
+msgstr ""

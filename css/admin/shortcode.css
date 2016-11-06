@@ -1,0 +1,55 @@
+.mce-i-mce-ico:before{font-family: dashicons !important; content: "\f489";}
+
+
+#mycity_icon_content{
+    overflow: auto !important;
+}
+#mycity_icon_content .extra_admin_1 {
+    display: block !important;
+    float: left;
+    font-size: 20px;
+    padding: 9px;
+}
+#mycity_icon_content  .extra_admin_1.active {
+    color: rgb(144, 238, 144);
+}
+#mycity_icon_content{
+    max-width: 700px !important;
+    height: 420px  !important;
+    overflow:   auto !important;
+}
+
+#mycity_icon_content b {
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+}
+
+
+#mycity_icon_content .mycity_icon_block {
+    display: block;
+    clear: both;
+    max-width: 700px;
+}
+
+
+.mycity_reg  , .mycite_news{
+    float: left;
+    width: 50%;
+    min-width: 480px;
+    max-width: 100%;
+
+    position: relative;
+    z-index: 500;
+
+}
+.mycity_reg  input.regular-text {
+    max-width: 100%;
+}
+.mycite_news {
+    min-width: 200px;
+
+}
+.notice-error, div.error {
+    border-left-color: #dc3232;
+    overflow: hidden;
+}

@@ -1,0 +1,30 @@
+.edited:hover {	 outline:3px dashed rgba(0,0,0, 0.81);  }
+@media all and (min-width: 775px) {    
+	.header {    top: 32px;}   
+	#wp-admin-bar-user-info img {
+		position: absolute !important;
+		left: -72px !important;
+		top: 4px !important;
+		width: 64px !important;
+		height: 64px !important;
+	}
+}
+@media all and (max-width: 799px) {
+	body.inner_page {   padding-top: 0px;  }    
+	.header {    top: 0px;}
+	.mycity_o-grid__item {    top: 0px;}#wpadminbar {
+	   display: block !important; position: fixed !important;}
+       
+      header {
+        top: 46px !important;
+       }
+       .mycity_o-grid__item {
+          top: 49px !important;
+        
+        }
+       
+}
+
+ .edited:hover {
+            outline: 3px dashed rgba(0, 0, 0, 0.81);
+        }

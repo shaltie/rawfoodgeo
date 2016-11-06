@@ -1,0 +1,1244 @@
+<?php
+    require_once("../../../wp-load.php");
+?>
+<html>
+    <head>
+    <link rel="stylesheet" href="css/font-awesome.css"> 
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,400italic,700italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap_mobile.css"> 
+    <link rel="stylesheet" href="css/mobile.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+<header class="1" id="header">
+
+
+    <?php
+     if (strlen(get_theme_mod('mycity_top_header_left') > 0 || strlen(get_theme_mod('mycity_top_header_right')) > 0))
+     { ?>
+        <div id="top_line">
+            <div class="container">
+                <?php  //header top block
+                get_template_part("partials/header", "top"); ?>
+                <!-- End row -->
+            </div>
+            <!-- End container-->
+        </div><!-- End top line-->
+
+    <?php 
+    } ?>
+
+
+    <div class="container navigate_full">
+        <div class="row">
+            <div class="col-md-12 clearfix map_header">
+             
+                <a href="/" class="logo">
+                    <img src="<?php echo esc_url(get_theme_mod('themeslug_logo',get_stylesheet_directory_uri() . '/img/logoin.png')); ?>" alt="">
+                <i class="fa fa-angle-down visible-xs visible-sm"></i>
+                </a>
+
+                
+                <?php
+                $defaults = array(
+                    'theme_location' => 'mycity_topmenu',
+                    'menu' => '',
+                    'container' => 'div',
+                    'container_class' => '',
+                    'container_id' => '',
+                    'menu_class' => 'navigate head_nav',
+                    'menu_id' => '',
+                    'echo' => true,
+                    'fallback_cb' => 'wp_page_menu',
+                    'before' => '',
+                    'after' => '',
+                    'link_before' => '',
+                    'link_after' => '',
+                    'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                    'depth' => 0,
+                    'walker' => new mycity_top_menu_walker());
+
+                if (has_nav_menu('mycity_topmenu')) {
+                    wp_nav_menu($defaults);
+
+                } else {
+                   $args = array(
+                        'depth'        => 0
+                        ,'show_date'    => ''
+                        ,'date_format'  => get_option('date_format')
+                        ,'child_of'     => 0
+                        ,'exclude'      => ''
+                        ,'exclude_tree'   => ''
+                        ,'include'      => ''
+                        ,'title_li'     => ''
+                        ,'echo'         => 0
+                        ,'authors'      => ''
+                        ,'sort_column'  => 'menu_order, post_title'
+                        ,'sort_order'  => 'ASC'
+                        ,'link_before'  => ''
+                        ,'link_after'   => ''
+                        ,'meta_key'   => ''
+                        ,'meta_value'   => ''
+                        ,'number'   => 5
+                        ,'offset'   => ''
+                        ,'walker'   => ''
+                    ); 
+
+                   echo '<ul id="menu-topheader" class="navigate head_nav">'. wp_list_pages( $args).'</ul>';
+
+                   
+                }
+                ?>
+
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<?php
+mycity_get_menu_button();
+?>
+<?
+get_sidebar();  
+?>
+<div class="news">
+    <div class="se-slope">
+        <div class="bright_slope black_background" data-style="background: rgba(0,0,0,0.3);" style="background: rgba(0,0,0,0.3);">  
+            <img src="http://city1.vioo.ru/wp-content/uploads/2015/08/1-1111x400.png" alt="" class="comments_img" rel="1902" style="height: 292px;">
+        </div>
+        <article class="se-content">
+           
+               <div class="comments_content">
+                <div class="post p_style_two noimage">
+                    <div class="post_info">
+                        <h2><a href="http://city1.vioo.ru/one-day-in-big-city/" data-url="http://city1.vioo.ru/one-day-in-big-city/" rel="1902" class="h_post"> One day in big city</a><span></span></h2>
+
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+    </div>
+     <div class="se-slope">
+        <div class="bright_slope black_background" data-style="background: rgba(0,0,0,0.3);" style="background: rgba(0,0,0,0.3);">  
+            <img src="http://city1.vioo.ru/wp-content/uploads/2015/09/paris2015_web_by_sugarmints-d8hrvbg-900x400.jpg" alt="" class="comments_img" rel="1902" style="height: 292px;">
+        </div>
+        <article class="se-content">
+           
+               <div class="comments_content">
+                <div class="post p_style_two noimage">
+                    <div class="post_info">
+                        <h2><a href="http://city1.vioo.ru/one-day-in-big-city/" data-url="http://city1.vioo.ru/one-day-in-big-city/" rel="1902" class="h_post"> One day in big city</a><span></span></h2>
+
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+    </div>
+     <div class="se-slope">
+        <div class="bright_slope black_background" data-style="background: rgba(0,0,0,0.3);" style="background: rgba(0,0,0,0.3);">  
+            <img src="http://city1.vioo.ru/wp-content/uploads/2015/07/2-1111x400.png" alt="" class="comments_img" rel="1902" style="height: 292px;">
+        </div>
+        <article class="se-content">
+           
+               <div class="comments_content">
+                <div class="post p_style_two noimage">
+                    <div class="post_info">
+                        <h2><a href="http://city1.vioo.ru/one-day-in-big-city/" data-url="http://city1.vioo.ru/one-day-in-big-city/" rel="1902" class="h_post"> One day in big city</a><span></span></h2>
+
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+    </div>
+      <div class="se-slope">
+        <div class="bright_slope black_background" data-style="background: rgba(0,0,0,0.3);" style="background: rgba(0,0,0,0.3);">  
+            <img src="http://city1.vioo.ru/wp-content/uploads/2015/07/2-1111x400.png" alt="" class="comments_img" rel="1902" style="height: 292px;">
+        </div>
+        <article class="se-content">
+           
+               <div class="comments_content">
+                <div class="post p_style_two noimage">
+                    <div class="post_info">
+                        <h2><a href="http://city1.vioo.ru/one-day-in-big-city/" data-url="http://city1.vioo.ru/one-day-in-big-city/" rel="1902" class="h_post"> One day in big city</a><span></span></h2>
+
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+    </div>
+      <div class="se-slope">
+        <div class="bright_slope black_background" data-style="background: rgba(0,0,0,0.3);" style="background: rgba(0,0,0,0.3);">  
+            <img src="http://city1.vioo.ru/wp-content/uploads/2015/07/2-1111x400.png" alt="" class="comments_img" rel="1902" style="height: 292px;">
+        </div>
+        <article class="se-content">
+           
+               <div class="comments_content">
+                <div class="post p_style_two noimage">
+                    <div class="post_info">
+                        <h2><a href="http://city1.vioo.ru/one-day-in-big-city/" data-url="http://city1.vioo.ru/one-day-in-big-city/" rel="1902" class="h_post"> One day in big city</a><span></span></h2>
+
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+    </div>
+      <div class="se-slope">
+        <div class="bright_slope black_background" data-style="background: rgba(0,0,0,0.3);" style="background: rgba(0,0,0,0.3);">  
+            <img src="http://city1.vioo.ru/wp-content/uploads/2015/07/2-1111x400.png" alt="" class="comments_img" rel="1902" style="height: 292px;">
+        </div>
+        <article class="se-content">
+           
+               <div class="comments_content">
+                <div class="post p_style_two noimage">
+                    <div class="post_info">
+                        <h2><a href="http://city1.vioo.ru/one-day-in-big-city/" data-url="http://city1.vioo.ru/one-day-in-big-city/" rel="1902" class="h_post"> One day in big city</a><span></span></h2>
+
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+    </div>
+      <div class="se-slope">
+        <div class="bright_slope black_background" data-style="background: rgba(0,0,0,0.3);" style="background: rgba(0,0,0,0.3);">  
+            <img src="http://city1.vioo.ru/wp-content/uploads/2015/07/2-1111x400.png" alt="" class="comments_img" rel="1902" style="height: 292px;">
+        </div>
+        <article class="se-content">
+           
+               <div class="comments_content">
+                <div class="post p_style_two noimage">
+                    <div class="post_info">
+                        <h2><a href="http://city1.vioo.ru/one-day-in-big-city/" data-url="http://city1.vioo.ru/one-day-in-big-city/" rel="1902" class="h_post"> One day in big city</a><span></span></h2>
+
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+    </div>
+
+</div>
+</body>
+
+<style>
+    
+body {
+    background: url(../img/start/bg.jpg);
+    background-size: cover;
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x:hidden;
+    width: 100%;
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+/*hamburger*/
+.c-hamburger {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background .3s;
+    transition: background .3s
+}
+.c-hamburger:focus {
+    outline: 0
+}
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 11px;
+  width: 17px;
+  /* right: 18px; */
+  height: 2px;
+  background: #fff;
+}
+.c-hamburger span::after,
+.c-hamburger span::before {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    content: ""
+}
+.c-hamburger--htla.is-active span::after,
+.c-hamburger--htla.is-active span::before,
+.c-hamburger--htra.is-active span::after,
+.c-hamburger--htra.is-active span::before {
+    width: 50%
+}
+.c-hamburger span::before {
+    top: -6px
+}
+.c-hamburger span::after {
+    bottom: -6px
+}
+.c-hamburger--rot {
+    background-color: transparent;
+}
+.c-hamburger--rot span {
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s
+}
+.c-hamburger--rot.is-active {
+    
+}
+.c-hamburger--rot.is-active span {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+.c-hamburger--htx {
+    background-color: #ff3264
+}
+.c-hamburger--htx span {
+    -webkit-transition: background 0s .3s;
+    transition: background 0s .3s
+}
+.c-hamburger--htx span::after,
+.c-hamburger--htx span::before {
+    -webkit-transition-duration: .3s, .3s;
+    transition-duration: .3s, .3s;
+    -webkit-transition-delay: .3s, 0s;
+    transition-delay: .3s, 0s
+}
+.c-hamburger--htx span::before {
+    -webkit-transition-property: top, -webkit-transform;
+    transition-property: top, transform
+}
+.c-hamburger--htx span::after {
+    -webkit-transition-property: bottom, -webkit-transform;
+    transition-property: bottom, transform
+}
+.c-hamburger--htx.is-active {
+    background-color: #cb0032
+}
+.c-hamburger--htx.is-active span {
+    background: 0 0
+}
+.c-hamburger--htx.is-active span::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+.c-hamburger--htx.is-active span::after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+.c-hamburger--htx.is-active span::after,
+.c-hamburger--htx.is-active span::before {
+    -webkit-transition-delay: 0s, .3s;
+    transition-delay: 0s, .3s
+}
+.c-hamburger--htla {
+    background-color: #32dc64
+}
+.c-hamburger--htla span {
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s
+}
+.c-hamburger--htla span::before {
+    -webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;
+    -webkit-transition: -webkit-transform .3s, width .3s, top .3s;
+    transition: transform .3s, width .3s, top .3s
+}
+.c-hamburger--htla span::after {
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transition: -webkit-transform .3s, width .3s, bottom .3s;
+    transition: transform .3s, width .3s, bottom .3s
+}
+.c-hamburger--htla.is-active {
+    background-color: #18903c
+}
+.c-hamburger--htla.is-active span {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+.c-hamburger--htla.is-active span::before {
+    top: 0;
+    -webkit-transform: translateX(38px)translateY(4px)rotate(45deg);
+    -ms-transform: translateX(38px)translateY(4px)rotate(45deg);
+    transform: translateX(38px)translateY(4px)rotate(45deg)
+}
+.c-hamburger--htla.is-active span::after {
+    bottom: 0;
+    -webkit-transform: translateX(38px)translateY(-4px)rotate(-45deg);
+    -ms-transform: translateX(38px)translateY(-4px)rotate(-45deg);
+    transform: translateX(38px)translateY(-4px)rotate(-45deg)
+}
+.c-hamburger--htra {
+    background-color: #ff9650
+}
+.c-hamburger--htra span {
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s
+}
+.c-hamburger--htra span::before {
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transition: -webkit-transform .3s, width .3s, top .3s;
+    transition: transform .3s, width .3s, top .3s
+}
+.c-hamburger--htra span::after {
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transition: -webkit-transform .3s, width .3s, bottom .3s;
+    transition: transform .3s, width .3s, bottom .3s
+}
+.c-hamburger--htra.is-active {
+    background-color: #e95d00
+}
+.c-hamburger--htra.is-active span {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+.c-hamburger--htra.is-active span::before {
+    top: 0;
+    -webkit-transform: translateX(-8px)translateY(4px)rotate(-45deg);
+    -ms-transform: translateX(-8px)translateY(4px)rotate(-45deg);
+    transform: translateX(-8px)translateY(4px)rotate(-45deg)
+}
+.c-hamburger--htra.is-active span::after {
+    bottom: 0;
+    -webkit-transform: translateX(-8px)translateY(-4px)rotate(45deg);
+    -ms-transform: translateX(-8px)translateY(-4px)rotate(45deg);
+    transform: translateX(-8px)translateY(-4px)rotate(45deg)
+}
+.mycity_o-grid__item {
+  /* padding: 24px; */
+  position: fixed;
+  z-index: 989999999999;
+  top:-2px;
+  left: 10px;
+  /* width: 40px; */
+  /* height: 40px; */
+}
+.mycity_o-grid__item:hover{
+    background-color: #DD3333;
+    border-radius: 50%;
+}
+.admin-bar .mycity_o-grid__item {
+  /* padding: 24px; */
+  position: fixed;
+  z-index: 989999999999;
+  top: 30px;
+  left: 10px;
+  /* width: 40px; */
+  /* height: 40px; */
+}
+/*hamburger*/
+/* Menu Movement */
+.pushy {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  top: 0;
+  left:0;
+  z-index: 999999999;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.pushy-left{
+    -webkit-transform: translate3d(-260px,0,0);
+    -moz-transform: translate3d(-260px,0,0);
+    -ms-transform: translate3d(-260px,0,0);
+    -o-transform: translate3d(-260px,0,0);
+    transform: translate3d(-260px,0,0);
+}
+
+.pushy-open{
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+/* Menu Transitions */
+
+.pushy, #container, .push{
+    -webkit-transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99);
+    -moz-transition: -moz-transform .2s cubic-bezier(.16, .68, .43, .99);
+    -o-transition: -o-transform .2s cubic-bezier(.16, .68, .43, .99);
+    transition: transform .2s cubic-bezier(.16, .68, .43, .99);
+}
+/*Scroll*/
+.page_info ul.blog_cat::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: #797676;
+}
+.page_info ul.blog_cat::-webkit-scrollbar              {  }
+.page_info ul.blog_cat::-webkit-scrollbar-button       {  }
+.page_info ul.blog_cat::-webkit-scrollbar-track        { }
+.page_info ul.blog_cat::-webkit-scrollbar-track-piece  {  }
+.page_info ul.blog_cat::-webkit-scrollbar-thumb        {  background: #fff;  }
+.page_info ul.blog_cat::-webkit-scrollbar-corner       {  }
+.page_info ul.blog_cat::-webkit-resizer                {   }
+.pushy::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: #797676;
+}
+.pushy::-webkit-scrollbar              {  }
+.pushy::-webkit-scrollbar-button       {  }
+.pushy::-webkit-scrollbar-track        { }
+.pushy::-webkit-scrollbar-track-piece  {  }
+.pushy::-webkit-scrollbar-thumb        {  background: #fff;  }
+.pushy::-webkit-scrollbar-corner       {  }
+.pushy::-webkit-resizer                {   }
+.template-feed .header{
+    position: static;
+}
+
+
+.place_dd::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: #797676;
+}
+.place_dd::-webkit-scrollbar              {  }
+.place_dd::-webkit-scrollbar-button       {  }
+.place_dd::-webkit-scrollbar-track        { }
+.place_dd::-webkit-scrollbar-track-piece  {  }
+.place_dd::-webkit-scrollbar-thumb        {  background: #fff;  }
+.place_dd::-webkit-scrollbar-corner       {  }
+.place_dd::-webkit-resizer                {   }
+.template-feed .header{
+    position: static;
+}
+/*logo && nav*/
+.logo{
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  text-decoration: none;
+  z-index: 10;
+  float: left;
+  margin-top: 3px;
+  opacity: 1!important;
+}
+.navigate>li{
+  display: inline-block;
+  margin-right: 20px;
+ 
+  font-size: 16px;
+  color:white;
+}
+.navigate li a.active{
+  color:#ffd200;
+}
+.navigate li:last-child{
+  margin-right: 0;
+}
+.navigate > li > a{
+  padding: 0;
+}
+.navigate > li a:hover{
+  background: none;
+  color:white;
+}
+/*logo && nav*/
+/*////////////////////////Side menu//////////////////////*/
+.pushy{
+    background: #DD3333;
+    overflow-x: hidden;
+ -webkit-box-shadow: 1px -1px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -1px 5px 1px rgba(0,0,0,0.75);
+box-shadow: 1px -1px 5px 1px rgba(0,0,0,0.75);
+}
+.pushy .profile {
+    background: #DD3333;
+    margin: -50px 0px -50px;
+    padding: 40px 0px 50px;
+}
+.pushy .profile .avatar {
+    width: 110px;
+    background: #DD3333;
+    height: 110px;
+    border-radius: 100px;
+    position: relative;
+    margin: 40px auto 0px;
+}
+
+.pushy .profile h3 {
+    text-align: center;
+}
+
+.pushy .profile h3 a {
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.pushy .profile h3 a:hover {
+    color:#333333; 
+    text-decoration: none;
+}
+
+.pushy .profile .log_btn {
+    width: 100px;
+    display: block;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    padding: 8px;
+    border-radius: 3px;
+    margin: 20px auto;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.pushy .profile .log_btn:hover {
+    border: 2px solid #ffffff; 
+    color:#ffffff; 
+   
+}
+
+.pushy .profile .avatar img {
+    width: 110px;
+    border-radius: 100px;
+    display: block;
+    border: 2px solid #FFFFFF;
+    padding: 6px;
+}
+
+.pushy .profile .avatar span {
+    display: block;
+    position: absolute;
+    right: 0px;
+    padding: 5px 11px;
+    background: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    color: #DD3333;
+    font-weight: 500;
+    top: 80px;
+}
+
+.pushy .side_menu {
+    margin: 50px 0px;
+    padding: 0px;
+}
+
+.pushy .side_menu li {
+    display: block;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.pushy .side_menu li a {
+    color: #FFFFFF;
+    display: block;
+    border-top: 1px solid #DD3333;
+    background: #EF2121;
+    border-bottom: 1px solid #DD3333;
+    margin-bottom: -1px;
+}
+.pushy .side_menu li a span {padding: 12px 20px;}
+.pushy .side_menu li a i {
+    color: #FFFFFF;
+    padding: 12px;
+    display: inline-block;
+    background: #DD3333;
+    margin-right: 16px;
+    font-size: 14px;
+    min-width: 40px;
+    text-align: center;
+}
+.pushy .side_menu li a:hover i {
+    color: #dd3333;
+    padding: 12px;
+    display: inline-block;
+    background: #F0F0F0;
+    margin-right: 16px;
+    font-size: 14px;
+    min-width: 40px;
+    text-align: center;
+}
+.pushy .side_menu li a:hover {
+    color: #DD3333;
+    text-decoration: none;
+    background: #FFFFFF;
+}
+.pushy a{
+   text-decoration: none;   
+}
+.navigate{
+    padding-left: 0;
+}
+.navigate>li {
+    color:black;
+}
+.navigate li a.active{
+  color:#ffd200;
+}
+.navigate li:last-child{
+  margin-right: 0;
+}
+.navigate > li > a{
+  padding: 0;
+}
+.navigate> li a{
+    color:white;
+    font-size:1.15em;
+    
+}
+#menu-header-menu1> .navigate li:nth-child(3){
+    position: relative;
+}
+#menu-header-menu1> .navigate li:nth-child(3):after{
+    content: '';
+    bottom: -20px;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #000;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.sub-menu{
+    position: absolute;
+    border-top: 15px solid transparent;
+    list-style: none;
+    color: black;
+    margin: 0;
+    display: none;
+    padding: 0;
+    top: 25px;
+    width: 180px;
+    -webkit-box-shadow: 11px 10px 13px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 10px 13px -10px rgba(0,0,0,0.75);
+    box-shadow: 11px 10px 13px -10px rgba(0,0,0,0.75);
+    z-index: 999999999999;
+}
+.sub-menu li a{
+    padding: 10px 10px;
+    display: block;
+    color:black;
+    background: white;
+}
+.sub-menu li a:hover{
+    background: #eee;
+    color:#EF2121;
+}
+.head_nav>.menu-item-has-children{
+    position: relative;
+}
+header{
+    top:0;
+}
+header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    padding-bottom:10px;
+}
+#top_line {
+    color: #fff;
+    height: 35px;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    transition: all .2s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    font-size: 11px;
+    visibility: visible;
+    opacity: 1;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 999999;
+}
+header.sticky {
+    -webkit-box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    background: #211530;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+}
+header.sticky #top_line {
+    height: 0;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    padding: 0;
+    opacity: 0;
+
+}
+.p_top_header{
+    margin-top: 8px;
+    font-size: 14px;
+}
+.p_top_header a{
+    color:white;
+    text-decoration: none;
+}
+.blog_cat > li .fa-angle-right{
+    right: 16px;
+    color: white;
+}
+.head_nav > li{
+    position: relative;
+}
+.head_nav > li > a{
+    display:block;
+    /*height:46px;*/
+    padding-bottom: 7px;
+    position:relative;
+    
+    text-decoration:none;
+   
+    position:relative;
+    overflow:hidden;
+}
+.head_nav{
+    margin-bottom: 0;
+}
+.head_nav > li > a:after{
+    content:"";
+    display:block;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:50px;
+    height:2px;
+    background-color:#DD3333;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+.head_nav > li a:hover:after{
+     margin-top:-4px;
+     color:white;
+}
+.sub-menu>li a{
+    font-size: 14px;
+    color:black;
+    text-decoration: none;
+}
+.head_nav{
+    float:right;
+}
+.sub-sub-menu{
+    top: 0;
+    left: 100%;
+    position: absolute;
+    border-top: 0;
+}
+.sub-sub-menu li:first-child{
+    border:none;
+}
+.sub-sub-menu:after {
+   display: none;
+}
+.sub-sub-menu li a i{
+    display: none;
+}
+.social_icons {
+    margin-right: 25px;
+}
+.social_icons a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 9px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+.social_icons a:hover {
+    background: #dd3333;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.head_nav .fa-angle-down {
+    color: white;
+    margin-left: 4px;
+}
+.logo .fa-angle-down{
+    opacity: 0;
+}
+.news{
+    /*margin-top: 140px;*/
+}
+/*.se-slope{
+    position: relative;
+}
+.se-content{
+    position: absolute;
+    top:0;
+    left:25px;
+}
+.se-content .post_info h2 a{
+    color:white;
+    text-decoration: none;
+}*/
+header{
+    display: none;
+}
+/*pull down*/
+
+/*adaptive*/
+
+@media (max-width: 1280px) {
+    .navigate_width .head_nav > li > a:hover{
+    color:#DD3333!important;
+}
+.Category_page.wide .se-container{
+        margin-bottom: -230px;
+    }
+.more_btn2{
+    top:50px;
+}
+.p_text{
+    width:100%;
+}
+.rotate_arrow{
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.header_promo {padding-left: 30px;}
+.template-item-minimal .start_descrition{
+    margin-top: 180px;
+}
+/*navigate_width*/
+.navigate_width > header{
+    -webkit-box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0 2px 10px -2phttp://city1.vioo.ru.ru/x rgba(0,0,0,0.41);
+    box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    
+    padding:5px 0;
+}
+.navigate_width .head_nav > li > a:after{
+    display: none;
+}
+.navigate_width .logo{
+    font-size: 30px;
+}
+.navigate_width .logo .fa-angle-down{
+    opacity: 1;
+}
+.sub-menu-item a{
+    display: block!important;
+    font-size: 1.15em!important;
+    background-color: #fff!important;
+    border-bottom: 1px solid #eee!important;
+    padding: 13px 10px!important;
+}
+.navigate_width  #top_line {
+    display: none;
+}
+.navigate_width .logo .fa-angle-down{
+    margin-left: 3px;
+    font-size: 23px;
+    opacity: 1;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.head_nav > li{
+    cursor: pointer;
+}
+.navigate_width .logo {
+    margin: 0 auto;
+    width: 100%;
+    float: none !important;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 0px 0px !important;
+}
+.navigate_width .map_header{
+    text-align: center;
+}
+.navigate_width .weather{
+    display: none;
+}
+.navigate_width .navigate>li{
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.navigate_width .navigate>li:last-child{
+    margin-bottom: 0;
+}
+.admin-bar.navigate_width .head_nav,.admin-bar.navigate_width .sub-menu{
+    top:93px;
+}
+.navigate_width .head_nav{
+    float:none;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    text-align: center;
+    top: 47px;
+    padding: 0;
+    margin:0;
+    padding-top: 10px;
+    display: none;
+}
+.navigate_width .navigate> li a,.navigate> li a:hover{
+    color:black;
+    border:none;
+}
+.navigate_width .sub-menu{
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+   position: fixed;
+   top: 47px;
+   z-index: 9999999;
+   border:none;
+}
+
+
+.navigate_width.Places_map.admin-bar .sub-menu{
+    top: 93px;
+}
+.navigate_width .sub-menu:after{
+    display: none;
+}
+.navigate_width .sub-menu li:first-child{
+    border: none;
+}
+.navigate_width .fa-arrow-right{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.navigate_width .fa-arrow-left{
+    position: absolute;
+    left: 10px;
+    top:11px;
+    cursor: pointer;
+}
+.navigate_width .mycity_o-grid__item {
+    margin: 0;
+    top: 4px;
+}
+.navigate_width .sub-menu>li a{
+    font-size: 1.15em;
+}
+.navigate_width .place_dd{
+    width: 100%;
+}
+.navigate_width .user_block {
+    display: none;
+}
+.navigate_width .sub-menu{
+    overflow-y:scroll;
+    height: 531px;
+        -webkit-box-shadow: 11px 10px 13px -10px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 11px 10px 13px -10px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 10px 13px -10px rgba(255, 255, 255, 0.75);
+}
+#ad_ajax{
+    overflow: hidden;
+    top: -100px;
+    position: relative;
+}
+.Category_page .item_wide_container {
+    top: 80px;
+}
+.Category_page footer {
+    margin-top: 0px;
+}
+}
+
+@media (max-width: 1200px) {
+   
+}
+@media (max-width: 1060px) {
+ 
+}
+@media (max-width: 1030px) {
+
+}
+@media (max-width: 1024px) {
+   
+}
+@media (max-width: 992px) {
+
+.head_nav .fa-angle-right{
+    position: absolute;
+    right: 10px;
+    top: -2px;
+    font-size: 23px;
+    cursor: pointer;
+    color: black;
+}
+.head_nav .fa-angle-left{
+   position: absolute;
+    left: 10px;
+    top: 10px;
+    display: block;
+    font-size: 23px;
+    cursor: pointer;
+    color: black;
+}
+
+}
+@media (max-width: 990px) {
+    
+}
+@media (max-width: 860px) {
+
+}
+@media (max-width: 768px) {
+.map_header{
+    text-align: center;
+}
+#top_line{
+    display: none;
+}
+
+header{
+    -webkit-box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    
+    padding: 0;
+}
+.logo .fa-angle-down{
+    margin-left: 10px;
+    font-size: 23px;
+    opacity: 1;
+}
+.logo {
+  margin: 0 auto;
+  width: 100%;
+  float: none !important;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 20px 0px 0px !important;
+}
+.navigate>li{
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.navigate>li:last-child{
+    margin-bottom: 0;
+}
+.head_nav{
+    float:none;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    top: 47px;
+    padding: 0;
+    margin:0;
+    padding-top: 10px;
+    display: none;
+}
+.navigate> li a,.navigate> li a:hover{
+    color:black;
+    border:none;
+}
+.sub-menu{
+    width: 100%;
+    top: -127px;
+    z-index: 9999999;
+}
+.sub-menu:after{
+    display: none;
+}
+.sub-menu li:first-child{
+    border: none;
+}
+
+}
+
+@media (max-width: 700px) {
+  
+}
+@media (max-width: 690px) {
+}
+@media (max-width: 640px) { 
+
+}
+@media (max-width: 650px) {
+ 
+}
+@media (max-width: 600px) {
+
+}
+@media (max-width: 550px) {
+    
+}
+@media (max-width: 500px) {
+
+}
+@media (max-width: 400px) {
+
+}
+@media (max-width: 350px) {
+
+}
+
+</style>
+</html>
